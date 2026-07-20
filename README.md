@@ -6,6 +6,12 @@ PocketPivot is a mechanically adjustable smartphone stand developed for MagSafe-
 
 The design combines portability, stability, and ease of use through a compact folding mechanism that can be adjusted to different positions while remaining easy to carry and economical to manufacture. PocketPivot is intended as an accessible alternative to more expensive commercial stands without sacrificing functionality or mechanical reliability.
 
+## CAD design preview
+
+The following gallery presents the complete assembly together with front, perspective, and rear mechanism views of the current PocketPivot design.
+
+![PocketPivot CAD design views](images/pocketpivot-cad-gallery.jpg)
+
 ## Design goals
 
 - Compatibility with MagSafe-enabled smartphones and magnetic adapters
@@ -23,6 +29,7 @@ The design combines portability, stability, and ease of use through a compact fo
 | [`SolidWorks/`](SolidWorks/) | Native SolidWorks parts, assemblies, and drawings |
 | [`STEP/`](STEP/) | Neutral CAD exports for cross-platform compatibility |
 | [`STL/`](STL/) | Mesh files prepared for prototyping and 3D printing |
+| [`images/`](images/) | CAD renders and visual documentation |
 
 ## Project status
 
