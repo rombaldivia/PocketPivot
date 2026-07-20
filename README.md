@@ -24,7 +24,9 @@ This perspective highlights the circular MagSafe interface, the adjustable upper
 
 ## Front View
 
-![PocketPivot front view](assets/figures/pocketpivot_front_view.jpg)
+<p align="center">
+  <img src="assets/figures/pocketpivot_front_view_fixed.jpg" width="360" alt="PocketPivot front view">
+</p>
 
 The front view shows the alignment between the magnetic mounting plate, the central support body, and the lower positioning mechanism.
 
@@ -32,7 +34,9 @@ The front view shows the alignment between the magnetic mounting plate, the cent
 
 ## Rear Mechanism
 
-![PocketPivot rear mechanism](assets/figures/pocketpivot_rear_mechanism.webp)
+<p align="center">
+  <img src="assets/figures/pocketpivot_rear_mechanism_fixed.jpg" width="420" alt="PocketPivot rear mechanism">
+</p>
 
 The rear view presents the articulated joint and the mechanical arrangement responsible for controlling the orientation of the phone.
 
@@ -82,8 +86,8 @@ PocketPivot/
     └── figures/
         ├── pocketpivot_full_assembly.jpg
         ├── pocketpivot_front_perspective.jpg
-        ├── pocketpivot_front_view.jpg
-        └── pocketpivot_rear_mechanism.webp
+        ├── pocketpivot_front_view_fixed.jpg
+        └── pocketpivot_rear_mechanism_fixed.jpg
 ```
 
 ---
