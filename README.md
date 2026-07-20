@@ -14,31 +14,12 @@ PocketPivot is a mechanically adjustable support designed for MagSafe-compatible
 
 ---
 
-## Front Perspective
+## Mechanical Design Views
 
-![PocketPivot front perspective](assets/figures/pocketpivot_front_perspective.jpg)
-
-This perspective highlights the circular MagSafe interface, the adjustable upper joint, the compact vertical structure, and the supporting base.
-
----
-
-## Front View
-
-<p align="center">
-  <img src="assets/figures/pocketpivot_front_view_fixed.jpg" width="360" alt="PocketPivot front view">
-</p>
-
-The front view shows the alignment between the magnetic mounting plate, the central support body, and the lower positioning mechanism.
-
----
-
-## Rear Mechanism
-
-<p align="center">
-  <img src="assets/figures/pocketpivot_rear_mechanism_fixed.jpg" width="420" alt="PocketPivot rear mechanism">
-</p>
-
-The rear view presents the articulated joint and the mechanical arrangement responsible for controlling the orientation of the phone.
+| Front Perspective | Front View | Rear Mechanism |
+|:---:|:---:|:---:|
+| <img src="assets/figures/pocketpivot_front_perspective.jpg" width="250" alt="PocketPivot front perspective"> | <img src="assets/figures/pocketpivot_front_view_fixed.jpg" width="250" alt="PocketPivot front view"> | <img src="assets/figures/pocketpivot_rear_mechanism_fixed.jpg" width="250" alt="PocketPivot rear mechanism"> |
+| Circular MagSafe interface, upper joint, compact body, and support base. | Alignment of the magnetic plate, central structure, and lower positioning mechanism. | Articulated joint and rear mechanism used to control phone orientation. |
 
 ---
 
