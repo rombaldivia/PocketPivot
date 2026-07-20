@@ -1,15 +1,19 @@
 # PocketPivot
 
-> **A pocket-sized mechanical phone stand engineered to move, lock, and disappear.**
+> **A compact, low-cost MagSafe phone stand designed for recording, viewing, and everyday positioning.**
 
-PocketPivot is a compact and mechanically adjustable smartphone stand designed for portability, stability, and rapid prototyping. The project explores a clean folding mechanism that delivers practical viewing angles without turning into another bulky object in your pocket or bag.
+PocketPivot is a mechanically adjustable smartphone stand developed for MagSafe-compatible devices. Its purpose is to provide a practical and affordable solution for positioning a phone at optimal viewing and recording angles, whether the user is filming content, attending video calls, following tutorials, taking photographs, or simply enjoying multimedia hands-free.
+
+The design combines portability, stability, and ease of use through a compact folding mechanism that can be adjusted to different positions while remaining easy to carry and economical to manufacture. PocketPivot is intended as an accessible alternative to more expensive commercial stands without sacrificing functionality or mechanical reliability.
 
 ## Design goals
 
-- Compact, foldable mechanical architecture
-- Stable support for everyday smartphone use
-- Adjustable viewing position
-- Easy fabrication and iterative prototyping
+- Compatibility with MagSafe-enabled smartphones and magnetic adapters
+- Adjustable positioning for recording, photography, video calls, and content viewing
+- Stable support across multiple practical viewing angles
+- Compact and foldable mechanical architecture
+- Low-cost fabrication using accessible manufacturing methods
+- Easy prototyping, modification, and design iteration
 - Clean CAD organization for design, exchange, and 3D printing
 
 ## Repository structure
@@ -22,8 +26,8 @@ PocketPivot is a compact and mechanically adjustable smartphone stand designed f
 
 ## Project status
 
-PocketPivot is currently under active mechanical development. Dimensions, tolerances, and manufacturing details may change as the design is tested and refined.
+PocketPivot is currently under active mechanical development. Dimensions, tolerances, magnetic attachment details, and manufacturing parameters may change as the design is tested and refined.
 
 ---
 
-**Small enough to carry. Smart enough to stay.**
+**Position better. Record smarter. Carry less.**
