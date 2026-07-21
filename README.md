@@ -1,8 +1,41 @@
 # PocketPivot
 
 <p align="center">
-  <strong>Compact, low-cost MagSafe phone stand for recording, viewing, and everyday positioning</strong>
+  <strong>Compact Mechanical Positioning System for MagSafe-Compatible Smartphones</strong>
 </p>
+
+<p align="center">
+  A low-cost, portable, and fabrication-oriented stand designed for stable recording, viewing, and everyday device positioning.
+</p>
+
+---
+
+## Design Overview
+
+**PocketPivot** is a compact mechanical support developed for MagSafe-compatible smartphones. The concept combines magnetic attachment, articulated positioning, and a foldable structural arrangement to provide repeatable device orientation without the size or cost of larger commercial stands.
+
+The project focuses on practical mechanical design rather than electronic complexity. Its engineering value lies in the integration of a compact support geometry, adjustable joints, manufacturable parts, and an accessible CAD package suitable for continued prototyping and refinement.
+
+PocketPivot is intended for:
+
+- Video recording and short-form content creation.
+- Product photography and tabletop shots.
+- Video calls and remote meetings.
+- Tutorials, demonstrations, and hands-free reference.
+- Everyday multimedia viewing.
+
+---
+
+## Engineering Intent
+
+The design is guided by four primary objectives:
+
+| Objective | Design Intent |
+| --- | --- |
+| Portability | Maintain a compact footprint suitable for transport and daily use. |
+| Adjustability | Provide practical angular positioning through articulated mechanical joints. |
+| Stability | Support a smartphone without excessive movement during normal interaction. |
+| Accessibility | Use geometry and manufacturing methods compatible with low-cost prototyping. |
 
 ---
 
@@ -10,7 +43,7 @@
 
 ![PocketPivot complete assembly](assets/figures/pocketpivot_full_assembly.jpg)
 
-PocketPivot is a mechanically adjustable support designed for MagSafe-compatible smartphones. It provides stable and practical phone positioning for content creation, photography, video calls, tutorials, and hands-free media viewing.
+The complete assembly integrates the circular magnetic interface, upper pivot, central structure, lower positioning mechanism, and support base into a single compact device.
 
 ---
 
@@ -23,8 +56,8 @@ PocketPivot is a mechanically adjustable support designed for MagSafe-compatible
 </p>
 
 <p align="center">
-  <strong>▶ Watch the mechanical positioning demo</strong><br>
-  <sub>Click the preview to open the full PocketPivot MP4 demonstration.</sub>
+  <strong>▶ Watch the mechanical positioning demonstration</strong><br>
+  <sub>Click the preview to open the complete PocketPivot MP4 demonstration.</sub>
 </p>
 
 ---
@@ -34,34 +67,55 @@ PocketPivot is a mechanically adjustable support designed for MagSafe-compatible
 | Front Perspective | Front View | Rear Mechanism |
 |:---:|:---:|:---:|
 | <img src="assets/figures/pocketpivot_front_perspective.jpg" width="250" alt="PocketPivot front perspective"> | <img src="assets/figures/pocketpivot_front_view_fixed.jpg" width="250" alt="PocketPivot front view"> | <img src="assets/figures/pocketpivot_rear_mechanism_fixed.jpg" width="250" alt="PocketPivot rear mechanism"> |
-| Circular MagSafe interface, upper joint, compact body, and support base. | Alignment of the magnetic plate, central structure, and lower positioning mechanism. | Articulated joint and rear mechanism used to control phone orientation. |
+| Magnetic interface, upper joint, compact body, and support base. | Alignment of the mounting plate, central structure, and lower positioning mechanism. | Articulated rear mechanism used to control smartphone orientation. |
 
 ---
 
-## Overview
+## Mechanical Architecture
 
-**PocketPivot** combines a compact mechanical architecture with MagSafe magnetic attachment to provide stable and repeatable smartphone positioning. The project is intended as an accessible alternative to higher-cost commercial stands while preserving portability, adjustability, and practical mechanical reliability.
+PocketPivot is organized around a small number of functional elements:
 
-Its primary purpose is to help users position a smartphone at suitable angles for:
+### Magnetic Mounting Interface
 
-- Recording videos and short-form content.
-- Photography and product shots.
-- Video calls and online meetings.
-- Following tutorials, demonstrations, or recipes.
-- Enjoying multimedia content hands-free.
+The circular front interface is intended to align with MagSafe-compatible smartphones and cases. Its geometry provides a clear mounting reference while keeping the phone centered relative to the support structure.
+
+### Articulated Positioning
+
+The upper and rear joints control device orientation. Their design must provide sufficient friction to hold the selected position while remaining adjustable during normal use.
+
+### Compact Structural Body
+
+The central body transfers load between the magnetic mount and the support base. Openings and reduced material regions help preserve a lightweight structure while maintaining the required mechanical continuity.
+
+### Support Base
+
+The lower structure stabilizes the assembly and defines the usable positioning range. Its geometry is intended to balance compactness, contact area, and clearance between moving parts.
 
 ---
 
 ## Main Features
 
 - MagSafe-compatible circular mounting interface.
-- Adjustable positioning for recording and content viewing.
-- Compact and foldable mechanical architecture.
+- Adjustable mechanical positioning for recording and viewing.
+- Compact and foldable architecture.
 - Stable support across multiple practical angles.
 - Low-cost fabrication using accessible manufacturing methods.
-- Editable native SolidWorks source files.
-- STEP exports for cross-platform CAD compatibility.
-- STL files for prototyping and 3D printing.
+- Editable native SolidWorks parts, assemblies, and drawings.
+- STEP exports for neutral CAD exchange and manufacturing review.
+- STL files for rapid prototyping and 3D printing.
+- Dedicated visual and motion documentation.
+
+---
+
+## CAD Package
+
+| Directory | Engineering Purpose |
+| --- | --- |
+| [`SolidWorks/`](SolidWorks/) | Editable native parts, assemblies, and technical drawings. |
+| [`STEP/`](STEP/) | Neutral geometry for cross-platform CAD exchange and manufacturing review. |
+| [`STL/`](STL/) | Mesh exports for rapid prototyping and additive manufacturing. |
+| [`assets/figures/`](assets/figures/) | Assembly views and mechanical documentation. |
+| [`assets/videos/`](assets/videos/) | Motion and positioning demonstrations. |
 
 ---
 
@@ -90,36 +144,30 @@ PocketPivot/
 
 ---
 
-## CAD Files
-
-| Directory | Contents |
-| --- | --- |
-| [`SolidWorks/`](SolidWorks/) | Editable parts, assemblies, and technical drawings |
-| [`STEP/`](STEP/) | Neutral CAD files for exchange and manufacturing review |
-| [`STL/`](STL/) | Mesh exports for rapid prototyping and 3D printing |
-| [`assets/figures/`](assets/figures/) | CAD renders and visual project documentation |
-| [`assets/videos/`](assets/videos/) | PocketPivot motion demonstrations |
-
----
-
-## Project Status
-
-The current CAD revision presents the resolved mechanical arrangement shown in the design views. Dimensions, tolerances, magnetic attachment details, and manufacturing parameters may continue to be refined during physical prototyping and testing.
-
----
-
-## Manufacturing Notes
+## Manufacturing Considerations
 
 Before fabrication, verify:
 
-- Final dimensions and smartphone clearance.
-- Joint tolerances and required mechanical friction.
+- Final smartphone and case clearance.
 - Magnet diameter, thickness, polarity, and retention method.
-- Print orientation and support requirements.
+- Joint tolerances and the friction required to maintain orientation.
 - Clearance between moving and mating components.
+- Print orientation, support requirements, and anisotropic strength.
+- Base contact area and resistance to overturning.
+- Fastener dimensions and accessibility during assembly.
+
+These parameters should be validated through physical prototyping because printed material, manufacturing process, and magnet selection directly influence the final mechanical behavior.
+
+---
+
+## Development Status
+
+The current CAD revision defines the resolved mechanical arrangement shown in the assembly and design views. The project remains open to dimensional refinement, tolerance optimization, magnetic-interface validation, and physical testing.
+
+Future iterations may focus on reducing part count, improving folding behavior, strengthening high-load joints, and refining the relationship between portability and stability.
 
 ---
 
 <p align="center">
-  <strong>Position better. Record smarter. Carry less.</strong>
+  <strong>Compact geometry. Practical articulation. Accessible fabrication.</strong>
 </p>
