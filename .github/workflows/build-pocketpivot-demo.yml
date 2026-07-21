@@ -1,0 +1,54 @@
+name: Build PocketPivot demo video
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-pocketpivot-demo.yml'
+      - 'assets/videos/pocketpivot_demo_web.mp4.b64'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-video:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Decode and verify MP4
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import hashlib
+          from pathlib import Path
+
+          source = Path('assets/videos/pocketpivot_demo_web.mp4.b64')
+          target = Path('assets/videos/pocketpivot_demo_web.mp4')
+          expected = '6fc5338a9aad82f5be00a58af717388cec11b1f6f321e905fc3f504ecf25e2eb'
+
+          encoded = ''.join(source.read_text(encoding='utf-8').split())
+          decoded = base64.b64decode(encoded, validate=True)
+          actual = hashlib.sha256(decoded).hexdigest()
+
+          if actual != expected:
+              raise SystemExit(f'SHA-256 mismatch: expected {expected}, got {actual}')
+
+          target.write_bytes(decoded)
+          print(f'Created {target} ({len(decoded)} bytes)')
+          PY
+
+      - name: Commit decoded video
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/videos/pocketpivot_demo_web.mp4
+          git rm assets/videos/pocketpivot_demo_web.mp4.b64
+          git commit -m 'Add corrected PocketPivot demo video'
+          git push
