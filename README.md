@@ -17,14 +17,14 @@ PocketPivot is a mechanically adjustable support designed for MagSafe-compatible
 ## PocketPivot in Motion
 
 <p align="center">
-  <a href="assets/videos/pocketpivot_demo_preview.mp4">
+  <a href="assets/videos/PocketPivot.mp4">
     <img src="assets/figures/pocketpivot_front_perspective.jpg" width="680" alt="Watch the PocketPivot mechanical positioning demo">
   </a>
 </p>
 
 <p align="center">
   <strong>▶ Watch the mechanical positioning demo</strong><br>
-  <sub>Click the preview to open the MP4 demonstration.</sub>
+  <sub>Click the preview to open the full PocketPivot MP4 demonstration.</sub>
 </p>
 
 ---
@@ -85,7 +85,7 @@ PocketPivot/
     │   ├── pocketpivot_front_view_fixed.jpg
     │   └── pocketpivot_rear_mechanism_fixed.jpg
     └── videos/
-        └── pocketpivot_demo_preview.mp4
+        └── PocketPivot.mp4
 ```
 
 ---
