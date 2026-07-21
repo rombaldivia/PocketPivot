@@ -14,20 +14,6 @@ PocketPivot is a mechanically adjustable support designed for MagSafe-compatible
 
 ---
 
-## PocketPivot in Motion
-
-<p align="center">
-  <a href="assets/videos/pocketpivot_demo.mp4">
-    <img src="assets/figures/pocketpivot_demo_cover.jpg" width="820" alt="Watch the PocketPivot design animation">
-  </a>
-</p>
-
-<p align="center">
-  <em>Click the preview to open the PocketPivot design animation.</em>
-</p>
-
----
-
 ## Mechanical Design Views
 
 | Front Perspective | Front View | Rear Mechanism |
@@ -78,14 +64,11 @@ PocketPivot/
 ├── STL/
 │   └── *.STL
 └── assets/
-    ├── figures/
-    │   ├── pocketpivot_full_assembly.jpg
-    │   ├── pocketpivot_front_perspective.jpg
-    │   ├── pocketpivot_front_view_fixed.jpg
-    │   ├── pocketpivot_rear_mechanism_fixed.jpg
-    │   └── pocketpivot_demo_cover.jpg
-    └── videos/
-        └── pocketpivot_demo.mp4
+    └── figures/
+        ├── pocketpivot_full_assembly.jpg
+        ├── pocketpivot_front_perspective.jpg
+        ├── pocketpivot_front_view_fixed.jpg
+        └── pocketpivot_rear_mechanism_fixed.jpg
 ```
 
 ---
@@ -98,7 +81,6 @@ PocketPivot/
 | [`STEP/`](STEP/) | Neutral CAD files for exchange and manufacturing review |
 | [`STL/`](STL/) | Mesh exports for rapid prototyping and 3D printing |
 | [`assets/figures/`](assets/figures/) | CAD renders and visual project documentation |
-| [`assets/videos/`](assets/videos/) | PocketPivot motion and design demonstrations |
 
 ---
 
